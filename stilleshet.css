@@ -102,14 +102,26 @@ text-align: center;
 
     .txt_rodape {
         font-size: 16px; /* Tamanho de fonte ajustado para dispositivos móveis */
-    }
-}
-.mapa{width: 100%;
-     height: 200px;
+        .mapa{width: 400px;
+     height: 300px;
 
 }
 .video{
     
-    width:100%;
-     height: 200px
+    width:400px;
+     height: 300px
+}
+
+    }
+     @media only screen and (min-width: 769px) {
+        .mapa {
+            height: 500px; /* Ajuste a altura conforme necessário para telas maiores que 768 pixels */
+            width: 500px;
+        }
+    
+        .video {
+            height: 500px; /* Ajuste a altura conforme necessário para telas maiores que 768 pixels */
+            width: 500px;
+        }
+    }
 }
