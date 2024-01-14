@@ -72,6 +72,9 @@ text-align: center;
     text-decoration-color: #0a027a; /* Nova cor de fundo ao passar o mouse */
 }
 /* Adaptação para dispositivos móveis (max-width: 768px) */
+
+
+
 @media only screen and (max-width: 768px) {
     .banner {
         height: 200px; /* Altura reduzida para dispositivos móveis */
@@ -102,18 +105,20 @@ text-align: center;
 
     .txt_rodape {
         font-size: 16px; /* Tamanho de fonte ajustado para dispositivos móveis */
-        .mapa{width: 400px;
-     height: 300px;
 
-}
-.video{
-    
-    width:400px;
-     height: 300px
-}
 
     }
-     @media only screen and (min-width: 769px) {
+    .mapa{width: 100%;
+         height: 200px;
+    
+    }
+    video{
+        
+        width:100%;
+         height: 200px
+    }
+    }
+    @media only screen and (min-width: 769px) {
         .mapa {
             height: 500px; /* Ajuste a altura conforme necessário para telas maiores que 768 pixels */
             width: 500px;
@@ -124,4 +129,3 @@ text-align: center;
             width: 500px;
         }
     }
-}
