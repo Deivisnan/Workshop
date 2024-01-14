@@ -1,0 +1,73 @@
+/* Estilo para o banner */
+.banner {
+    width: 100%;
+    height: 350px;
+    background: url("banner.jpg") center/cover; /* Substitua "banner.jpg" pelo caminho da sua imagem de banner */
+    position: relative;
+    z-index: 1; /* Valor menor para que a logo fique na frente */
+}
+
+/* Estilo para a logo */
+.logo {
+    border-radius: 50%;
+    display: block;
+    width: 100px;
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário para a posição vertical */
+    left: 10px; /* Ajuste conforme necessário para a posição horizontal */
+    z-index: 2; /* Valor maior para que a logo fique na frente do banner */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+.botao {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Adapte o preenchimento conforme necessário */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 2px solid #4CAF50; /* Cor da borda */
+    transition: background-color 0.3s ease; /* Transição suave na mudança de cor de fundo */
+    
+}
+
+.botao:hover {
+    background-color: #053608; /* Nova cor de fundo ao passar o mouse */
+}
+.titulo{
+
+text-align: center;
+}
+
+.localizacao{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  
+
+
+}
+
+.rodape{
+    background-color: rgb(44, 42, 42);
+    height: 180px;
+    width: 100%;
+}
+.texto_rodape{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eedbdb;
+    
+    margin-bottom: 10px; /* Adiciona espaço abaixo do primeiro parágrafo */
+    
+}
+.txt_rodape{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eedbdb;
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+.txt_rodape:hover{
+    text-decoration-color: #0a027a; /* Nova cor de fundo ao passar o mouse */
+}
